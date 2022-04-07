@@ -1,0 +1,10 @@
+ct-cn 0
+id-id 1
+ja-jp 2
+Kazak 3
+ko-kr 4
+ru-ru 5
+Tibet 6
+Uyghu 7
+vi-vn 8
+zh-cn 9
