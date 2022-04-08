@@ -7,7 +7,7 @@
 * **To install fairseq** and develop locally:
 ```bash
 git clone https://github.com/pytorch/fairseq
-cd fairseq
+cd wav2vec-sid
 pip install --editable ./
 
 # on MacOS:
