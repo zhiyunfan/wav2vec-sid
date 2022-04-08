@@ -6,7 +6,7 @@
 * For training new models, you'll also need an NVIDIA GPU and [NCCL](https://github.com/NVIDIA/nccl)
 * **To install fairseq** and develop locally:
 ```bash
-git clone https://github.com/pytorch/fairseq
+git clone https://github.com/zhiyunfan/wav2vec-sid.git
 cd wav2vec-sid
 pip install --editable ./
 
