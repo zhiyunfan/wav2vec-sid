@@ -9,6 +9,7 @@
 git clone https://github.com/zhiyunfan/wav2vec-sid.git
 cd wav2vec-sid
 pip install --editable ./
+pip install soundfile
 
 # on MacOS:
 # CFLAGS="-stdlib=libc++" pip install --editable ./
