@@ -50,32 +50,7 @@ We provide reference implementations of various sequence modeling papers:
 
 </p></details>
 
-### What's New:
 
-- August 2020: [Added lexically constrained decoding](examples/constrained_decoding/README.md)
-- August 2020: [wav2vec2 models and code released](examples/wav2vec/README.md)
-- July 2020: [Unsupervised Quality Estimation code released](examples/unsupervised_quality_estimation/README.md)
-- May 2020: [Follow fairseq on Twitter](https://twitter.com/fairseq)
-- April 2020: [Monotonic Multihead Attention code released](examples/simultaneous_translation/README.md)
-- April 2020: [Quant-Noise code released](examples/quant_noise/README.md)
-- April 2020: [Initial model parallel support and 11B parameters unidirectional LM released](examples/megatron_11b/README.md)
-<details><summary>Previous updates</summary><p>
-
-- March 2020: [Byte-level BPE code released](examples/byte_level_bpe/README.md)
-- February 2020: [mBART model and code released](examples/mbart/README.md)
-- February 2020: [Added tutorial for back-translation](https://github.com/pytorch/fairseq/tree/master/examples/backtranslation#training-your-own-model-wmt18-english-german)
-- December 2019: [fairseq 0.9.0 released](https://github.com/pytorch/fairseq/releases/tag/v0.9.0)
-- November 2019: [VizSeq released (a visual analysis toolkit for evaluating fairseq models)](https://facebookresearch.github.io/vizseq/docs/getting_started/fairseq_example)
-- November 2019: [CamemBERT model and code released](examples/camembert/README.md)
-- November 2019: [BART model and code released](examples/bart/README.md)
-- November 2019: [XLM-R models and code released](examples/xlmr/README.md)
-- September 2019: [Nonautoregressive translation code released](examples/nonautoregressive_translation/README.md)
-- August 2019: [WMT'19 models released](examples/wmt19/README.md)
-- July 2019: fairseq relicensed under MIT license
-- July 2019: [RoBERTa models and code released](examples/roberta/README.md)
-- June 2019: [wav2vec models and code released](examples/wav2vec/README.md)
-
-</p></details>
 
 ### Features:
 
@@ -161,16 +136,7 @@ We also have more detailed READMEs to reproduce results from specific papers:
 - [Convolutional Sequence to Sequence Learning (Gehring et al., 2017)](examples/conv_seq2seq/README.md)
 - [Language Modeling with Gated Convolutional Networks (Dauphin et al., 2017)](examples/language_model/conv_lm/README.md)
 
-# Join the fairseq community
 
-* Twitter: https://twitter.com/fairseq
-* Facebook page: https://www.facebook.com/groups/fairseq.users
-* Google group: https://groups.google.com/forum/#!forum/fairseq-users
-
-# License
-
-fairseq(-py) is MIT-licensed.
-The license applies to the pre-trained models as well.
 
 # Citation
 
@@ -182,5 +148,11 @@ Please cite as:
   author = {Myle Ott and Sergey Edunov and Alexei Baevski and Angela Fan and Sam Gross and Nathan Ng and David Grangier and Michael Auli},
   booktitle = {Proceedings of NAACL-HLT 2019: Demonstrations},
   year = {2019},
+}
+@inproceedings{fan2021wav2vecsid,
+  title = {Exploring wav2vec 2.0 on Speaker Verification and Language Identification},
+  author = {Zhiyun Fan and Meng Li and Shiyu Zhou and Bo Xu},
+  booktitle = {Conference of the International Speech Communication Association},
+  year = {2021},
 }
 ```
