@@ -43,6 +43,9 @@ We also have more detailed READMEs to reproduce results from specific papers:
 - [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations (Baevski et al., 2020)](examples/wav2vec/README.md)
 
 
+ # Acknowledge
+ The wav2vec-sid borrows a lot of codes from fairseq.
+
 
 # Citation
 
